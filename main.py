@@ -7,14 +7,14 @@ from telethon import TelegramClient, events, types
 
 # API anahtarlarınızı ve diğer bilgilerinizi buraya ekleyin
 #hedef_id = '-1001940513035'
-hedef_id = '@qrup1e90ff'
-api_id = '20038971'
-api_hash = '19f2a0b0d4ca36631b9f3314b9ce8674'
-user_id_to_watch = 6065774150
-channel_username = 'AgaevX'  # Kanalın kullanıcı adı
-admin_user_id = '6065774150'  # Admin olarak belirlediğiniz kullanıcının ID'si
-phone_number = '+99499866881'
-TOKEN="6579478544:AAFq9EkZ0xrHat1l921eZnQiBGZ6wy1rZkM"
+hedef_id = ''
+api_id = ''
+api_hash = ''
+user_id_to_watch = 
+channel_username = ''  # Kanalın kullanıcı adı
+admin_user_id = ''  # Admin olarak belirlediğiniz kullanıcının ID'si
+phone_number = ''
+TOKEN=""
 # Telegram istemcisini oluşturun
 
 
