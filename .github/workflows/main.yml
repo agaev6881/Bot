@@ -2,7 +2,7 @@ name: Python application
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Hər 5 dəqiqədən bir işləyəcək
+    - cron: '*/1 * * * *'  # Hər 5 dəqiqədən bir işləyəcək
   workflow_dispatch:
 
 jobs:
@@ -25,4 +25,4 @@ jobs:
 
     - name: Run script
       run: |
-        python your_script.py
+        python main.py
