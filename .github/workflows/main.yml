@@ -2,7 +2,7 @@ name: Python application
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Hər 5 dəqiqədən bir işləyəcək
+    - cron: '*/5 * * * *'  # Hər 5 dəqiqədən bir işləyəcək
   workflow_dispatch:
 
 jobs:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3  # Yeni versiya
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4  # Yeni versiya
       with:
         python-version: '3.x'
 
