@@ -17,7 +17,9 @@ jobs:
       uses: actions/setup-python@v4  # Yeni versiya
       with:
         python-version: '3.x'
-
+    - name : telethon yukle
+      run : |
+        pip install telethon
     - name: Run script
       run: |
         python main.py
